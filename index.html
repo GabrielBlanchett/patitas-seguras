@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Aviso de Privacidad — Patitas Seguras</title>
+<style>
+  :root { --cream:#F4F3EE; --ink:#1F2937; --muted:#6B7280; --green:#1B5C3D; --line:#E0DED7; }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0; background: var(--cream); color: var(--ink);
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    line-height: 1.65; font-size: 17px;
+  }
+  .wrap { max-width: 760px; margin: 0 auto; padding: 40px 22px 80px; }
+  header { border-bottom: 2px solid var(--green); padding-bottom: 18px; margin-bottom: 28px; }
+  h1 { font-size: 28px; margin: 0 0 6px; color: var(--green); }
+  .sub { color: var(--muted); font-size: 14px; margin: 0; }
+  h2 { font-size: 20px; margin: 34px 0 10px; color: var(--green); }
+  p, li { color: #374151; }
+  a { color: var(--green); }
+  table { width: 100%; border-collapse: collapse; margin: 14px 0; font-size: 15px; }
+  th, td { text-align: left; padding: 8px 10px; border-bottom: 1px solid var(--line); vertical-align: top; }
+  th { color: var(--green); }
+  .note { background: #fff; border: 1px solid var(--line); border-radius: 12px; padding: 14px 16px; }
+  footer { margin-top: 48px; color: var(--muted); font-size: 14px; border-top: 1px solid var(--line); padding-top: 18px; }
+  code { background: #fff; border: 1px solid var(--line); border-radius: 6px; padding: 1px 6px; font-size: 14px; }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <h1>Aviso de Privacidad — Patitas Seguras</h1>
+    <p class="sub">Última actualización: 5 de junio de 2026 · Responsable: Gabriel Blanchet · Contacto: <a href="mailto:dev.gabrielblanchet@gmail.com">dev.gabrielblanchet@gmail.com</a></p>
+  </header>
+
+  <p>Patitas Seguras ("la app", "nosotros") ayuda a localizar mascotas perdidas y a conectar a la comunidad para adopción y avistamientos. Este aviso explica qué datos recolectamos, para qué, con quién los compartimos y qué derechos tenés.</p>
+
+  <h2>1. Datos que recolectamos</h2>
+  <p><strong>Datos de cuenta:</strong> correo electrónico y contraseña (gestionada y cifrada por nuestro proveedor de autenticación; nunca la vemos en texto plano), nombre completo, número de teléfono y país.</p>
+  <p><strong>Contenido que publicás:</strong> fotos de tus mascotas, avistamientos, perfil, hogar (en solicitudes de adopción) y negocio; publicaciones de mascotas perdidas y en adopción, avistamientos, solicitudes de adopción y reportes de moderación, con los textos que escribís.</p>
+  <p><strong>Ubicación:</strong> ubicación precisa (GPS) y aproximada <strong>mientras usás la app</strong>, para marcar dónde se perdió/vio una mascota, mostrar el feed por zona y calcular áreas estimadas. No rastreamos tu ubicación con la app cerrada.</p>
+  <p><strong>Notificaciones:</strong> identificador de dispositivo para notificaciones push (token de Firebase Cloud Messaging).</p>
+  <p><strong>Compras:</strong> historial de compras dentro de la app (Premium, publicaciones destacadas, promociones), procesado por Google Play y RevenueCat. No almacenamos datos de tu tarjeta.</p>
+  <p><strong>Diagnóstico y estabilidad:</strong> registros de errores y fallos para mejorar la app.</p>
+  <p><strong>Publicidad:</strong> identificador de publicidad del dispositivo, usado por Google AdMob.</p>
+  <p>No recolectamos categorías especiales (salud, biometría) sobre personas. La información médica registrada se refiere a las <em>mascotas</em>.</p>
+
+  <h2>2. Para qué usamos los datos</h2>
+  <ul>
+    <li>Crear y gestionar tu cuenta y tu perfil público.</li>
+    <li>Publicar y mostrar mascotas perdidas, avistamientos y adopciones, y permitir el contacto entre la comunidad.</li>
+    <li>Filtrar el contenido por tu zona y calcular áreas de búsqueda.</li>
+    <li>Enviarte notificaciones relevantes.</li>
+    <li>Procesar compras y habilitar funciones de pago.</li>
+    <li>Moderar contenido reportado y mantener la comunidad segura.</li>
+    <li>Mostrar publicidad para sostener el servicio gratuito.</li>
+    <li>Detectar y corregir fallos.</li>
+  </ul>
+
+  <h2>3. Con quién compartimos datos</h2>
+  <p>No vendemos tus datos personales. Los compartimos únicamente con proveedores que los procesan para que la app funcione:</p>
+  <table>
+    <tr><th>Proveedor</th><th>Para qué</th></tr>
+    <tr><td>Supabase</td><td>Autenticación, base de datos y almacenamiento de fotos.</td></tr>
+    <tr><td>Google Firebase</td><td>Notificaciones push y reportes de fallos.</td></tr>
+    <tr><td>Google AdMob</td><td>Publicidad dentro de la app.</td></tr>
+    <tr><td>RevenueCat + Google Play Billing</td><td>Procesamiento y validación de compras.</td></tr>
+    <tr><td>Google Maps</td><td>Mostrar mapas y ubicaciones.</td></tr>
+  </table>
+  <p class="note"><strong>Contenido público:</strong> lo que publicás como mascota perdida, en adopción o avistamiento (incluidas fotos, descripción y zona/ciudad) es visible para otros usuarios por diseño — esa es la función del servicio. Tu correo y tu teléfono no se muestran públicamente; el contacto se habilita según el flujo (por ejemplo, al reportar un avistamiento o al aprobar una solicitud).</p>
+
+  <h2>4. Conservación y eliminación</h2>
+  <p>Conservamos tus datos mientras tu cuenta esté activa. Podés <strong>eliminar tu cuenta en cualquier momento</strong> desde la app (Perfil → Privacidad → Eliminar cuenta): borra tu cuenta y tus datos asociados. Los avistamientos que hayas reportado sobre mascotas de otras personas pueden conservarse de forma <strong>anonimizada</strong> para no eliminar pistas útiles a otros dueños.</p>
+
+  <h2>5. Tus derechos</h2>
+  <ul>
+    <li><strong>Acceso y rectificación:</strong> podés ver y editar tu perfil y tus publicaciones en la app.</li>
+    <li><strong>Eliminación:</strong> podés eliminar tu cuenta y tus datos (sección 4).</li>
+    <li><strong>Notificaciones:</strong> podés desactivarlas desde los ajustes del sistema.</li>
+    <li><strong>Ubicación y publicidad:</strong> podés revocar el permiso de ubicación y restablecer el identificador de publicidad desde los ajustes de Android.</li>
+  </ul>
+  <p>Para ejercer cualquier derecho o hacer consultas: <a href="mailto:dev.gabrielblanchet@gmail.com">dev.gabrielblanchet@gmail.com</a>.</p>
+
+  <h2>6. Seguridad</h2>
+  <p>La información se transmite cifrada (HTTPS/TLS). Aplicamos controles de acceso a nivel de base de datos para que cada usuario solo pueda modificar sus propios datos. Ningún sistema es 100% infalible, pero trabajamos para protegerla.</p>
+
+  <h2>7. Menores de edad</h2>
+  <p>Patitas Seguras no está dirigida a menores de edad sin supervisión. No recolectamos conscientemente datos de menores; si creés que esto ocurrió, escribinos para eliminarlos.</p>
+
+  <h2>8. Marco legal</h2>
+  <p>Tratamos los datos conforme a la Ley Federal de Protección de Datos Personales en Posesión de los Particulares (LFPDPPP, México) y, cuando aplique, conforme al RGPD (UE) y la CCPA (California).</p>
+
+  <h2>9. Cambios a este aviso</h2>
+  <p>Podemos actualizar este aviso. Publicaremos la versión vigente con su fecha de "Última actualización" y, ante cambios relevantes, te avisaremos dentro de la app.</p>
+
+  <footer>
+    Patitas Seguras — hecho con cariño para reunir mascotas con sus familias.
+  </footer>
+</div>
+</body>
+</html>
